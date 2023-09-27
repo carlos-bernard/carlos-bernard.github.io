@@ -100,19 +100,18 @@
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
           <h4 class="mb-80">Contact Form</h4>
-          <form action="#" class="row">
+		  <form action="https://formspree.io/mpzyqdng" method="POST" class="row">
             <div class="col-md-6">
-              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4" required>
+              <input type="hidden" name="_subject" value="Contact request from personal website" />
             </div>
             <div class="col-md-6">
-              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4" required>
+              <input type="email" name="_replyto" placeholder="Your email" required>
             </div>
             <div class="col-12">
-              <textarea name="message" id="message" class="form-control px-0 mb-4"
-                placeholder="Type Message Here" required></textarea>
+              <textarea name="message" placeholder="Type your message" required></textarea>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
-              <button class="btn btn-primary w-100">send</button>
+              <button type="submit">Send</button>
             </div>
           </form>
         </div>

@@ -1,5 +1,11 @@
 
 
+empty, .space { 
+	margin:0; 
+	padding:0; 
+	height:50px; 
+}
+
 .spacer {
      padding-top: 80px;
      padding-bottom: 40px

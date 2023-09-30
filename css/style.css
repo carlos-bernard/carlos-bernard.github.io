@@ -7,8 +7,8 @@ empty, .space {
 }
 
 .spacer {
-     padding-top: 80px;
-     padding-bottom: 40px
+     padding-top: 0px;
+     padding-bottom: 10px
  }
 
 body {
